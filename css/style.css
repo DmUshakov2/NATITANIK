@@ -1,0 +1,282 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+
+/* GENERAL */
+
+body{
+    background-color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+
+    margin: 0 auto;
+}
+
+.footer-container{
+    width: 775px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* HEADER */
+
+
+.header__nav-items{
+    margin-top: 26px;
+}
+
+.header__nav-items{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+
+.header-nav__item__logo-img{
+    margin-right: 219px;
+}
+
+.header-nav__item-link-home,
+.header-nav__item-link-about,
+.header-nav__item-link-portfolio{
+    margin-right: 145px;
+}
+
+/* INTRO */
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-container-left{
+    margin-top: 150px;
+    width: 480px;
+    color: #fff;
+}
+
+.intro__suptitle-1{
+    margin-bottom: 10px;
+
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.intro__title{
+    margin-bottom: 10px;
+
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.intro__suptitle-2{
+    margin-bottom: 30px;
+
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.intro__button-text{
+    padding: 14px 41px;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* SKILLS */
+
+.skils{
+    height: 1400px;
+    background-image: url(./../img/bg2.png);
+}
+
+.skills-items{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.skils-item{
+    margin-top: 113px;
+
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+}
+
+.skils-item-1,
+.skils-item-2,
+.skils-item-3,
+.skils-item-5,
+.skils-item-6{
+    margin-right: 19px;
+}
+
+.skils-item-5{
+    margin-left: 140px;
+}
+
+.skills-item-1-img{
+    padding-top: 50.97px;
+}
+
+.skills-item-2-img{
+    color: #00C4F0;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 77px;
+    margin-bottom: 22px;
+    margin-right: 61px;
+    margin-left: 61px;
+}
+
+.skills-item-3-img{
+    margin-top: 67px;
+    margin-bottom: 7px;
+    margin-right: 98px;
+    margin-left: 97px;
+}
+
+.skills-item-4-img{
+    margin: 67px 97px 0 98px;
+}
+
+.skills-item-5-img{
+    margin: 50px 98px 0 97px;
+}
+
+.skills-item-6-img{
+    margin: 50px 98px 0 97px;
+}
+
+.skills-item-7-img{
+    margin: 50px 99px 0 96px;
+}
+
+.skills-item-text{
+    margin-top: 39.78px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.skills-item-1-img-text{
+    padding-right: 40px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.skills-item-4-img-text,
+.skills-item-5-img-text{
+    margin-bottom: 50px;
+}
+
+/* ABOUT ME */
+
+.about-me{
+    margin-top: 156px;
+
+    background-color: #2A2A2A;
+
+    border-radius: 30px;
+}
+
+.about-me__title{
+    color: #00C4F0;
+    font-size: 48px;
+    font-weight: 400;
+
+    padding-top: 50px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.about-me__suptitle{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    margin-top: 100px;
+    background-color: #000;
+}
+
+.portfolio-title{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+
+.portfolio-img{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    color: #fff;
+}
+
+.footer-ul{
+    margin: 50px 0;
+}
+
+.footer-ul__item1,
+.footer-ul__item2,
+.footer-ul__item3,
+.footer-ul__item5,
+.footer-ul__item6,
+.footer-ul__item7{
+    margin-bottom: 18px;
+}
+
+.footer-ul__item9{
+    margin-bottom: 63px;
+}
+
+.footer-ul-1{
+    margin-right: 115px;
+}
+
+.footer-ul-2{
+    margin-right: 56px;
+}
+
+
+/* MBL */
+
+@media (max-width: 450px) {
+}
